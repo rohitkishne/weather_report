@@ -11,13 +11,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    min-height: 175vh;
 }
 
 .container{
     background: url("./media/bg.jpg");
-    width: 80%;
-    height: 130vh;
+    width: 90%;
+    height: 145vh;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -26,14 +26,14 @@ body{
 }
 
 .left{
-    width: 32%;
+    width: 34%;
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     gap: 70px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 15px;
     /* background-color: #0000005c; */
 
 }
@@ -187,9 +187,9 @@ body{
 .right{
     position: absolute;
     box-sizing: border-box;
-    left: 573px;
-    width: 56%;
-    height: 130vh;
+    left: 472px;
+    width: 60%;
+    height: 145vh;
     background-color: #E4F1FF;
     border-radius: 40px;
     padding: 40px;
@@ -266,7 +266,7 @@ body{
 }
 
 .rain-next-day{
-    width: 32%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,21 +306,22 @@ body{
 }
 
 .upcoming-update{
-    min-height: 350px;
+    min-height: 250px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
-.upcoming-update-info{
+.upcoming-update-info {
     width: 100%;
-    padding: 20px 0px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 60px;
+    gap: 40px;
+    height: 100px;
 }
 
 .upcoming-update-info .show-update{
@@ -378,14 +379,14 @@ body{
     box-sizing: border-box;
     padding: 15px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
 .weather-card .weather-card-title{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -396,8 +397,8 @@ body{
 }
 
 .weather-card-title .condition-symbol {
-    width: 20%;
-    height: 35px;
+    width: 17%;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,10 +406,6 @@ body{
     color: white;
     border-radius: 10px;
 }
-
-/* .weather-card .weather-card-value{
-    font-weight: 700;
-} */
 
 .weather-card-value .value-percent{
     font-weight: 800;
@@ -436,10 +433,11 @@ body{
     /* align-items: center; */
     justify-content: center;
     gap: 2px;
+    font-size: 14px;
 }
 
 .weather-card-statistics .good > div{
-    width: 65px;
+    width: 50px;
     height: 10px;
     border-radius: 10px;
     background-color: #4287f5;
@@ -451,6 +449,7 @@ body{
     /* align-items: center; */
     justify-content: center;
     gap: 2px;
+    font-size: 14px;
 }
 
 .weather-card-statistics .normal > div{
@@ -466,6 +465,7 @@ body{
     /* align-items: center; */
     justify-content: center;
     gap: 2px;
+    font-size: 14px;
 }
 
 .weather-card-statistics .bad > div{
@@ -524,7 +524,7 @@ body{
 }
 
 .precipitation > span{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .weather-card-statistics .uv{
@@ -573,6 +573,7 @@ body{
     align-items: center;
     width: 20%;
     height: 25px;
+    font-size: 13px;
 }
 
 .feel-degree .feel-zero{
