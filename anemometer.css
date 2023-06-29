@@ -1,0 +1,154 @@
+.speed-statistics{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-weight: 500;
+    color: #808080d6;
+    letter-spacing: 0.5px;
+}
+.speed-container{
+    position: relative;
+    /* background-color: yellow; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .speedometer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    /* background-color: bisque; */
+  }
+  
+  .speed {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+    left: 15px;
+    z-index: 1;
+    background-color: white;
+}
+  
+  .first, .second, .third, .fourth, .fifth{
+    width: 35px;
+      height: 15px;
+      border-radius: 65px;
+  }
+  
+  .first {
+    background-color: #4287f5;
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    transform: rotate(-55deg);
+}
+  
+.second {
+    background-color: #4287f5;
+    position: absolute;
+    top: 55px;
+    left: -8px;
+    transform: rotate(86deg);
+}
+  
+.third {
+    background-color: #808080a8;
+    position: absolute;
+    top: 3px;
+    left: 32px;
+    transform: rotate(1deg);
+}
+  
+  
+.fourth {
+    background-color: #808080a8;
+    position: absolute;
+    top: 19px;
+    left: 63px;
+    transform: rotate(-126deg);
+}
+  
+.fifth {
+    background-color: #808080a8;
+    position: absolute;
+    top: 54px;
+    left: 74px;
+    transform: rotate(88deg);
+}
+  
+.circle {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background-color: #4287f5;
+    top: 48px;
+    left: 47px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 25px solid #4287f5;
+    position: absolute;
+    border-radius: 20px;
+    top: 30px;
+    left: 25px;
+    z-index: 3;
+    transform: rotate(50deg);
+}
+  
+  
+  
+  .numbers{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    color: #808080cf;
+  }
+  
+  .num1 {
+    top: 69px;
+    left: -7px;
+}
+.num2 {
+    top: 35px;
+    left: -5px;
+}
+.num3 {
+    top: -4px;
+    left: 19px;
+}
+.num4 {
+    top: -5px;
+    left: 68px;
+}
+.num5 {
+    top: 34px;
+    left: 97px;
+}
+
+.num6 {
+    top: 68px;
+    left: 101px;
+}
+  .wind-speed {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    font-size: 16px;
+    font-weight: 900;
+    z-index: 3;
+    color: black;
+}

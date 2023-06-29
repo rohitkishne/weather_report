@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anemometer.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="left">
+            <div class="icons">
+                <div class="plus">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                </div>
+                <div class="dots">
+                    <span class="material-symbols-outlined icon-style">
+                        page_control
+                    </span>
+                </div>
+                <div class="toggle">
+                    <div class="temp">
+                        <span class="zero">o</span>
+                        <span>C</span>
+                    </div>
+                    <span class="material-symbols-outlined icon-style">
+                        toggle_off
+                    </span>
+                    <div class="temp">
+                        <span class="zero">o</span>
+                        <span>F</span>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <div class="location">
+                    <div class="place">
+                        <span class="material-symbols-outlined place-icon">
+                            near_me
+                        </span>
+                        <span>New York, USA</span>
+                    </div>
+                    <div class="date date-font">
+                        <span>Today 28 Sept</span>
+                    </div>
+                </div>
+                <div class="diff-time">
+                    <div class="first-time">
+                        <span class="material-symbols-outlined">
+                            wb_twilight
+                        </span>
+                        <span>07:19</span>
+                    </div>
+                    <div class="second-time">
+                        <span class="material-symbols-outlined">
+                            wb_twilight
+                        </span>
+                        <span>19:32</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather">
+                <div class="weather-content">
+                    <div class="arrows">
+                        <span class="material-symbols-outlined">
+                            arrow_back_ios
+                        </span>
+                    </div>
+                    <div class="weather-condition">
+                        <div class="temp">
+                            <span>27</span>
+                            <span class="temp-symbol">o</span>
+                        </div>
+                    </div>
+                    <div class="arrows">
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+                <div class="sunny">
+                    <span class="material-symbols-outlined">
+                        wb_sunny
+                    </span>
+                    <span>
+                        Sunny
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <div class="intro">
+                <div class="title">
+                    <span class="welcome">Welcome back Isabella!</span>
+                    <span class="check">Check out today's weather information</span>
+                </div>
+                <div class="image">
+                    <span class="material-symbols-outlined">
+                        more_horiz
+                    </span>
+                    <img src="./media/isabella.jpg" alt="profile pictures">
+                </div>
+            </div>
+            <div class="weather-report">
+                <div class="upcoming-update-intro">
+                    <div class="upcoming-title">
+                        <span>Upcoming hours</span>
+                    </div>
+                    <div class="rain-next-day">
+                        <div class="rain-precipitation">
+                            <select name="rain-precipitation" id="rain-precipitation" disabled="disabled">
+                                <option value="rain-precipitation">Rain precipitation</option>
+                            </select>
+                        </div>
+                        <button class="btn">
+                            <span>Next days</span>
+                            <span class="material-symbols-outlined next-icon">
+                                chevron_right
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="upcoming-update">
+                    <div class="upcoming-update-info">
+                        <div class="show-update">
+                            <span>Now</span>
+                            <span class="material-symbols-outlined sunshine">
+                                light_mode
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>27</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>11:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                light_mode
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>28</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>12:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                cloud
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>28</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>13:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                cloud
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>29</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>14:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                light_mode
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>30</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>15:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                cloud
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>29</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>16:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                               cloud
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>29</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+                        <div class="show-update">
+                            <span>17:00</span>
+                            <span class="material-symbols-outlined sunshine">
+                                light_mode
+                            </span>
+                            <div class="upcoming-temp">
+                                <span>28</span>
+                                <span class="temp-now">o</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <canvas id="myChart" style="width:100%;max-width:780px; height: 215px;"></canvas>
+                </div>
+            </div>
+            <div class="weather-conditions">
+                <div class="weather-condition-title">
+                    More details of today's weather
+                </div>
+                <div class="weather-different-condition">
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>Humidity</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    humidity_low
+                                </span>
+                            </div>
+                        </div>
+                        <div class="weather-card-value">
+                            <span class="value-percent">82%</span>
+                            <span class="how-weather">bad</span>
+                        </div>
+                        <div class="weather-card-statistics">
+                            <div class="good">
+                                <span>good</span>
+                                <div></div>
+                            </div>
+                            <div class="normal">
+                                <span>normal</span>
+                                <div></div>
+                            </div>
+                            <div class="bad">
+                                <span>bad</span>
+                                <div>
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>Wind</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    air
+                                </span>
+                            </div>
+                        </div>
+                        <div class="speed-statistics">
+                            <div class="speed-container">
+                                <div class="speedometer">
+                                  <div class="speed"></div>
+                                  <div class="first"></div>
+                                  <div class="second"></div>
+                                  <div class="third"></div>
+                                  <div class="fourth"></div>
+                                  <div class="fifth"></div>
+                                </div>
+                              
+                                <div class="numbers num1">0</div>
+                                <div class="numbers num2">5</div>
+                                <div class="numbers num3">10</div>
+                                <div class="numbers num4">20</div>
+                                <div class="numbers num5">30</div>
+                                <div class="numbers num6">40</div>
+                                <div class="arrow"></div>
+                                <div class="circle"></div>
+                                <div class="wind-speed">
+                                  8 Km/h
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>Precipitation</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    rainy
+                                </span>
+                            </div>
+                        </div>
+                        <div class="weather-card-value">
+                            <span class="value-percent">1.4</span>
+                            <span class="cm">cm</span>
+                        </div>
+                        <div class="weather-card-statistics">
+                            <div class="precipitation"><span>0</span><div class="precipitation-range zero-range"></div></div>
+                            <div class="precipitation"><span>10</span><div class="precipitation-range"><div class="ten-range"></div></div></div>
+                            <div class="precipitation"><span>20</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>30</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>40</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>50</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>60</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>70</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>80</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation"><span>90</span><div class="precipitation-range"></div></div>
+                        </div>
+                    </div>
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>UV index</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    light_mode
+                                </span>
+                            </div>
+                        </div>
+                        <div class="weather-card-value">
+                            <span class="value-percent">4</span>
+                            <span class="how-weather">medium</span>
+                        </div>
+                        <div class="weather-card-statistics">
+                            <div class="precipitation uv"><span>0-2</span><div class="precipitation-range zero-range"></div></div>
+                            <div class="precipitation uv"><span>3-5</span><div class="precipitation-range"><div class="threetofive"></div></div></div>
+                            <div class="precipitation uv"><span>6-7</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation uv"><span>8-10</span><div class="precipitation-range"></div></div>
+                            <div class="precipitation uv"><span>11+</span><div class="precipitation-range"></div></div>
+                        </div>
+                    </div>
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>Feels like</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    device_thermostat
+                                </span>
+                            </div>
+                        </div>
+                        <div class="weather-card-value feelsLike">
+                            <span class="value-percent">30</span>
+                            <span class="degree">o</span>
+                        </div>
+                        <div class="weather-card-statistics">
+                            <div class="feel-box">
+                                <div class="feel-weather">
+                                    <div class="feel-degree"><span>0</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>25</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>50</span><span class="feel-zero">o</span></div>
+                                </div>
+                                <div class="feel-range">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-card">
+                        <div class="weather-card-title">
+                            <span>Chance of rain</span>
+                            <div class="condition-symbol">
+                                <span class="material-symbols-outlined">
+                                    shower
+                                </span>
+                            </div>
+                        </div>
+                        <div class="weather-card-value">
+                            <span class="value-percent">42%</span>
+                        </div>
+                        <div class="weather-card-statistics">
+                            <div class="feel-box">
+                                <div class="feel-weather">
+                                    <div class="feel-degree"><span>0</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>25</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>50</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>75</span><span class="feel-zero">o</span></div>
+                                    <div class="feel-degree"><span>100</span><span class="feel-zero">o</span></div>
+                                </div>
+                                <div class="feel-range">
+                                    <div class="rain-chance"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
